@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Class Project Report | Devin Ergul</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <a class="back-link" href="../project.html">← Back to Project</a>
+    <div class="hero">
+      <div>
+        <h1>Project Report</h1>
+        <p class="subtitle">Automated Regime-Based Portfolio Allocation System</p>
+      </div>
+      <div class="hero-text" style="grid-column: 1 / -1;">
+        <p>Full write-up outlining the data inputs, modeling approach, analytics pipeline, and outcomes for the portfolio allocation system.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="card">
+        <h3>Context & Goal</h3>
+        <p>Create a transparent pipeline that converts macroeconomic signals into allocation recommendations with defendable rationale and risk controls.</p>
+      </div>
+      <div class="card">
+        <h3>Methodology</h3>
+        <ul style="margin: 0; padding-left: 18px; color: var(--muted); line-height: 1.6;">
+          <li>Ingest 13 macro indicators (e.g., breakeven inflation, growth, financial conditions) and normalize via custom z-scores.</li>
+          <li>Score regime probabilities and map them to allocation bands across asset classes with exposure caps.</li>
+          <li>Run analytics: returns, volatility, Sharpe/Sortino, drawdowns, and Value at Risk to compare candidate portfolios.</li>
+          <li>Produce investor memos summarizing the regime call, allocation, and associated risks.</li>
+          <li>Build controlled test cases to expose pricing/logic breakdowns and improve reliability.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Tech & Tools</h3>
+        <div class="chip-row">
+          <span class="chip">Python (Pandas, NumPy, SciPy, Statsmodels)</span>
+          <span class="chip">Excel Underwriting</span>
+          <span class="chip">Risk Analytics</span>
+          <span class="chip">Investor Communications</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Outcomes</h3>
+        <p>Delivered allocation outputs with clear risk/return trade-offs and memos suitable for stakeholders. QA reduced model failure rates by more than 90% on edge-case tests.</p>
+      </div>
+    </div>
+
+    <p class="footer-note">Questions? devinergul@gmail.com | LinkedIn: <a href="https://www.linkedin.com/in/devin-ergul/" target="_blank" rel="noreferrer">devin-ergul</a></p>
+  </div>
+</body>
+</html>
