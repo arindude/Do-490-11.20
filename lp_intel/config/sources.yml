@@ -1,0 +1,29 @@
+- name: CalPERS Board Agenda (sample)
+  url: https://www.calpers.ca.gov/docs/board-agendas/2024/invest/agenda.pdf
+  doc_type: pdf
+  tags: [allocation, pacing, strategy]
+  notes: "Agenda PDFs often include pacing plans and allocation updates."
+
+- name: Texas TRS Investment Council Minutes (sample)
+  url: https://www.trs.texas.gov/Pages/board_meeting_minutes.aspx
+  doc_type: html
+  tags: [rfp, strategy, performance]
+  notes: "Minutes and RFP notices are typically linked from this page."
+
+- name: Oregon PERF RFP Notices (sample)
+  url: https://www.oregon.gov/treasury/invested-for-oregon/real-estate/Pages/rfps.aspx
+  doc_type: html
+  tags: [rfp]
+  notes: "Dedicated RFP listing page for private markets and real assets."
+
+- name: Washington State Investment Board Updates (sample)
+  url: https://www.sib.wa.gov/meetings/default.php
+  doc_type: html
+  tags: [allocation, performance]
+  notes: "Meeting packets and performance dashboards."
+
+- name: New York State Common Retirement Fund RFPs (sample)
+  url: https://www.osc.ny.gov/investments
+  doc_type: html
+  tags: [rfp, strategy]
+  notes: "RFPs and investment policy updates."
